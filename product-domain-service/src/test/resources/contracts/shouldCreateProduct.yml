@@ -1,0 +1,16 @@
+name: should Create a prodcut
+request:
+  method: POST
+  url: /product/create-product
+  body:
+    id: 1
+    productName: ankamma
+  headers:
+    Content-Type: application/json;charset=UTF-8
+response:
+  status: 200
+  body:
+    id: 1
+    productName: ankamma
+  headers:
+    Content-Type: application/json;charset=UTF-8
